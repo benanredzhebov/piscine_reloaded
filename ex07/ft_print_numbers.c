@@ -6,7 +6,7 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 12:54:11 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/07 22:21:18 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/09 13:43:00 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 // {
 //     write (1, &c, 1);
 // }
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {

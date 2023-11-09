@@ -6,16 +6,18 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 19:42:17 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/08 20:45:38 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/09 15:47:58 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+// #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+// void	ft_putchar(char c)
+// {
+// 	write(1, &c, 1);
+// }
+
+void	ft_putchar(char c);
 
 int	main(int argc, char *argv[])
 {

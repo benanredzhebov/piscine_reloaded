@@ -6,16 +6,18 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 12:26:52 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/07 22:20:35 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/09 13:42:34 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+//#include <unistd.h>
 
-// void	ft_putchar (char c)
+// void	ft_putchar(char c)
 // {
 //     write (1, &c, 1);
 // }
+
+void	ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {

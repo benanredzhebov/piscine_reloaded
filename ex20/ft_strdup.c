@@ -1,38 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/08 12:18:08 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/09 13:47:15 by beredzhe         ###   ########.fr       */
+/*   Created: 2023/11/09 12:02:42 by beredzhe          #+#    #+#             */
+/*   Updated: 2023/11/09 12:54:04 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <unistd.h>
-
-// void	ft_putchar(char c)
-// {
-// 	write (1, &c, 1);
-// }
-
-void	ft_putchar(char c);
-
-void	ft_putstr(char *str)
+char	*ft_strdup(char *src)
 {
-	while (*str != '\0')
-	{
-		ft_putchar(*str);
-		str++;
-	}
+	char *new;
+	int	i;
+
+	i = 0;
+	if
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-
-// 	str = "DorukhanDefne";
-// 	ft_putstr(str);
-// 	return (0);
-// }

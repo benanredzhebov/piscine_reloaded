@@ -1,21 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test.c                                             :+:      :+:    :+:   */
+/*   ft_sort_params.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 23:40:01 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/08 23:49:28 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/09 15:50:26 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+// void	ft_putchar(char c)
+// {
+// 	write(1, &c, 1);
+// }
+
+void	ft_putchar(char c);
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -69,4 +71,5 @@ int	main(int argc, char **argv)
 		i++;
 	}
 	ft_print_params(argv);
+	return (0);
 }

@@ -6,16 +6,18 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 13:03:12 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/07 22:24:17 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/09 13:43:49 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <unistd.h>
 
-// void    ft_putchar (char c)
+// void	ft_putchar(char c)
 // {
 //     write (1, &c, 1);
 // }
+
+void	ft_putchar(char c);
 
 void	ft_is_negative(int n)
 {
