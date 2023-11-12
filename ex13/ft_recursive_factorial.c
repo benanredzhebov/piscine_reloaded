@@ -6,7 +6,7 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 09:55:30 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 23:40:15 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/13 00:29:11 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_recursive_factorial(int nb)
 {
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 		return (0);
 	if (nb == 0 || nb == 1)
 		return (1);

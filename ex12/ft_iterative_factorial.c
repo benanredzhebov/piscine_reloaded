@@ -6,11 +6,10 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:54:37 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 15:22:38 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/13 00:27:00 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
 #include <unistd.h>
 
 int	ft_iterative_factorial(int nb)
@@ -18,7 +17,7 @@ int	ft_iterative_factorial(int nb)
 	int	result;
 
 	result = 1;
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 		return (0);
 	else if (nb <= 1)
 		return (result);
@@ -30,8 +29,12 @@ int	ft_iterative_factorial(int nb)
 	return (result);
 }
 
+// #include <limits.h>
+// #include <stdio.h>
 // int	main(void)
 // {
-// 	printf ("%d\n", ft_iterative_factorial(5));
+// 	int	i = INT_MAX;
+// 	i = 13;
+// 	printf("%d\n", ft_iterative_factorial(i));
 // 	return (0);
 // }
