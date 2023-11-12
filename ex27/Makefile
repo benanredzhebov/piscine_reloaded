@@ -6,20 +6,20 @@
 #    By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/12 21:56:28 by beredzhe          #+#    #+#              #
-#    Updated: 2023/11/12 22:35:16 by beredzhe         ###   ########.fr        #
+#    Updated: 2023/11/12 22:59:56 by beredzhe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_display_file
-FILES = display_file.c
-
-.PHONY: all clean fclean
+SRCS = 	srcs/*.c
 
 all:
-	@gcc -Wall -Wextra -Werror -o $(NAME) $(FILES)
+	gcc $(SRCS) -o $(NAME)
 
 clean:
-	@rm -f *.o
+	/bin/rm -f *.o
 
 fclean: clean
-	@rm -f $(NAME)
+	/bin/rm -f $(NAME)
+
+re: fclean re

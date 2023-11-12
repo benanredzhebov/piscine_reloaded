@@ -6,33 +6,36 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 21:30:26 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 22:36:16 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 23:17:28 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <fcntl.h>
 
-void	print_file(char const *name)
+void	display(char *filename)
 {
-	int		fd;
-	char	buf[1];
+	int		file;
+	char	character;
 
-	fd = open(name, O_RDONLY);
-	while (read(fd, buf, sizeof(buf)))
+	file = open(filename, O_RDONLY);
+	if (file < 0)
 	{
-		write(1, buf, sizeof(buf));
+		write(1, "Cannot read file.\n", 19);
+		return ;
 	}
-	close(fd);
+	while (read(file, &character, 1))
+		write(1, &character, 1);
+	close(file);
 }
 
 int	main(int argc, char **argv)
 {
-	if (argc == 2)
-		print_file(argv[1]);
-	else if (argc < 2)
+	if (argc == 1)
 		write(2, "File name missing.\n", 19);
-	else
+	else if (argc > 2)
 		write(2, "Too many arguments.\n", 20);
+	else
+		display (argv[1]);
 	return (0);
 }
