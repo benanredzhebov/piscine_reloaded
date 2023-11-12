@@ -6,12 +6,12 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 21:29:56 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/11 22:23:28 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 11:10:40 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
-#define FT_POINT_H
+# define FT_POINT_H
 
 typedef struct s_point
 {
@@ -20,6 +20,7 @@ typedef struct s_point
 }	t_point;
 
 void	set_point(t_point *point);
+
 #endif
 
 // the main function
