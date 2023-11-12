@@ -6,11 +6,12 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 22:54:37 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/08 09:53:44 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 15:22:38 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+// #include <stdio.h>
+#include <unistd.h>
 
 int	ft_iterative_factorial(int nb)
 {

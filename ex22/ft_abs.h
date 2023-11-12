@@ -6,13 +6,13 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 15:31:30 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 11:48:32 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 15:19:11 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
 
-# define ABS(value) ((value < 0) ? (value * - 1) : value)
+# define ABS(Value) ((Value) < 0 ? -(Value) : (Value))
 
 #endif
