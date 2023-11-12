@@ -6,11 +6,11 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 09:55:30 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/09 13:55:07 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 22:31:58 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 int	ft_recursive_factorial(int nb)
 {
