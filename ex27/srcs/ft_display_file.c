@@ -6,7 +6,7 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 21:30:26 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 22:02:24 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/12 22:25:43 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 void	display(char *filename)
 {
-	int	file;
+	int		file;
 	char	character;
 
 	file = open(filename, O_RDONLY);
