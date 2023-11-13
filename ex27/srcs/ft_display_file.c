@@ -6,7 +6,7 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 21:30:26 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/11/12 23:52:21 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/11/13 00:47:58 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,6 @@ int	main(int argc, char **argv)
 	else if (argc > 2)
 		write(2, "Too many arguments.\n", 20);
 	else
-		display (argv[1]);
+		display(argv[1]);
 	return (0);
 }
